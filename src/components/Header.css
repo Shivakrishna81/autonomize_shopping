@@ -1,0 +1,76 @@
+.container {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+
+
+.nav-heading {
+    font-family: "Bree Serif";
+    margin-left: 3px;
+    font-weight: 500;
+    color: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.nav-heading:hover {
+    transform: translateY(-4px);
+    transition: all ease 0.3s;
+}
+
+.button1 {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: auto;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.button2 {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 0px 24px 0px 0px;
+    cursor: pointer;
+}
+
+.logout-button {
+    margin-right: 65px;
+    width: 100px;
+    padding: 6px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+    color: rgb(29, 28, 28);
+    font-family: "Roboto";
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.logout-button:hover {
+    box-shadow: 0px 15px 20px rgba(214, 51, 181, 0.4);
+    transform: translateY(-2px);
+    padding-bottom: 10px;
+    transition: all ease 0.3s;
+}
+
+.cart-img {
+    width: 37px;
+}
+
+.button1:hover {
+    transform: translateY(-2px);
+}
+
+.logo {
+    width: 60px;
+    margin-left: 60px;
+}
